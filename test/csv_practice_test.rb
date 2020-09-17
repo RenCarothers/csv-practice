@@ -13,8 +13,8 @@ require_relative '../lib/csv_practice'
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 REQUIRED_OLYMPIAN_FIELDS = %w[ID Name Height Team Year City Sport Event Medal]
-MEDAL_TOTALS_FILENAME = '../data/medal_totals.csv'
-OLYMPIC_DATA_FILENAME = '../data/athlete_events.csv'
+MEDAL_TOTALS_FILENAME = 'data/medal_totals.CSV'
+OLYMPIC_DATA_FILENAME = 'data/athlete_events.CSV'
 
 describe "CSV and Enumerables Exercise" do
 
